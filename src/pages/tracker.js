@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import MotivationQuote from '../components/MotivationQuote';
 import DailyGoalTracker from '../components/DailyGoalTracker';
 
