@@ -9,7 +9,6 @@ const Home = () => {
         <p>Your Monthly Productivity Tracker</p>
         <nav>
           <Link href="/">Home</Link>
-          <Link href="/services">Planner</Link>
           <Link href="/tracker">Tracker</Link>
           <Link href="/about">About Us</Link>
           <Link href="/contact">Contact Us</Link>
@@ -23,9 +22,9 @@ const Home = () => {
           Organize your tasks by category, check progress daily, and celebrate consistency.<br />
           Ready to get started?
         </p>
-        <a href="services.html" className="btn btn-primary start-btn">
-          Go to Planner
-        </a>
+        <Link href="/services">
+            <a className="btn btn-primary start-btn">Go to Planner</a>
+        </Link>
       </section>
 
       <footer>
