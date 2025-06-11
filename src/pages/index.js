@@ -9,6 +9,7 @@ const Home = () => {
         <p>Your Monthly Productivity Tracker</p>
         <nav>
           <Link href="/">Home</Link>
+          <Link href="/services">Planner</Link>
           <Link href="/tracker">Tracker</Link>
           <Link href="/about">About Us</Link>
           <Link href="/contact">Contact Us</Link>
