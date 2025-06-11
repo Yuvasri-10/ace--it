@@ -8,10 +8,10 @@ const Home = () => {
         <h1>AceIt</h1>
         <p>Your Monthly Productivity Tracker</p>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="tracker.html">Tracker</a>
-          <a href="about.html">About Us</a>
-          <a href="contact.html">Contact Us</a>
+          <Link href="index.html">Home</Link>
+          <Link href="tracker.html">Tracker</Link>
+          <Link href="about.html">About Us</Link>
+          <Link href="contact.html">Contact Us</Link>
         </nav>
       </header>
 
