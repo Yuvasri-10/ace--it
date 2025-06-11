@@ -22,9 +22,7 @@ const Home = () => {
           Organize your tasks by category, check progress daily, and celebrate consistency.<br />
           Ready to get started?
         </p>
-        <Link href="/services">
-            <a className="btn btn-primary start-btn">Go to Planner</a>
-        </Link>
+    
       </section>
 
       <footer>
