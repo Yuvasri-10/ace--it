@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const defaultTasks = {
   professional: ["Finish project report", "Attend team meeting", "Send client follow-up email", "Review quarterly goals"],
