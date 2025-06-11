@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+
 import MotivationQuote from '../components/MotivationQuote';
 import DailyGoalTracker from '../components/DailyGoalTracker';
 
@@ -24,6 +25,10 @@ const Tracker = () => {
           Stay on top of your goals and track your progress with AceIt.
           See how you're doing at a glance and celebrate your achievements!
         </p>
+
+        {/* Optional components below */}
+        <MotivationQuote />
+        <DailyGoalTracker />
 
         <div className="tracker-container">
           <div className="tracker-card">
